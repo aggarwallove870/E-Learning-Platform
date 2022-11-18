@@ -13,3 +13,8 @@ def custom_invitations(request):
             user.save()
             send_invitation(user)
        
+# Create your views here.
+
+
+def index(request):
+    return render(request, 'index.html')
